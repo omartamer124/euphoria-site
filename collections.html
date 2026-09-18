@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collections — Euphoria ASU</title>
+<meta name="description" content="Photos from Euphoria ASU trips and events at Ain Shams University.">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <img src="assets/logo.png" alt="Euphoria ASU logo">
+      <span class="brand-name">EUPHORIA <span>ASU</span></span>
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="applications.html">Applications</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="collections.html" class="active">Collections</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </div>
+</header>
+
+<div class="page-header reveal">
+  <div class="wrap">
+    <div class="eyebrow">Photo gallery</div>
+    <h1>Collections</h1>
+    <p class="lede">Moments from Euphoria ASU trips and events — Dahab, Fayoum, Ras Sedr, our Padel Tournament, and campus life at FYE ASU.</p>
+  </div>
+</div>
+
+<section class="block">
+  <div class="wrap">
+    <div class="filters reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="trips">Trips</button>
+      <button class="filter-btn" data-filter="sports">Sports</button>
+      <button class="filter-btn" data-filter="campus">Campus</button>
+    </div>
+
+    <div class="gallery">
+
+      <div class="gallery-item reveal reveal-img" data-category="trips">
+        <div class="media-bg" style="background-image:url('assets/collections/dahab-2026.jpg')"></div>
+        <div class="cap"><strong>Dahab 2026</strong>Trip</div>
+      </div>
+
+      <div class="gallery-item reveal reveal-img" data-category="trips">
+        <div class="media-bg" style="background-image:url('assets/collections/dahab-2025.jpg')"></div>
+        <div class="cap"><strong>Dahab 2025</strong>Trip</div>
+      </div>
+
+      <div class="gallery-item reveal reveal-img" data-category="sports">
+        <div class="media-bg" style="background-image:url('assets/collections/padel-tournament-2026.jpg')"></div>
+        <div class="cap"><strong>Padel Tournament 2026</strong>Sports</div>
+      </div>
+
+      <div class="gallery-item reveal reveal-img" data-category="trips">
+        <div class="media-bg" style="background-image:url('assets/collections/fayoum-trips.jpg')"></div>
+        <div class="cap"><strong>Fayoum Trips</strong>Trip</div>
+      </div>
+
+      <div class="gallery-item reveal reveal-img" data-category="trips">
+        <div class="media-bg" style="background-image:url('assets/collections/ras-sedr.jpg')"></div>
+        <div class="cap"><strong>Ras Sedr</strong>Trip</div>
+      </div>
+
+      <div class="gallery-item reveal reveal-img" data-category="campus">
+        <div class="media-bg" style="background-image:url('assets/collections/fye-asu.jpg')"></div>
+        <div class="cap"><strong>FYE ASU</strong>Campus</div>
+      </div>
+
+    </div>
+
+    <div class="form-note" style="margin-top:36px;">
+      <strong>Adding your photos:</strong> put your images in <code>assets/collections/</code> using these exact file names — <code>dahab-2026.jpg</code>, <code>dahab-2025.jpg</code>, <code>padel-tournament-2026.jpg</code>, <code>fayoum-trips.jpg</code>, <code>ras-sedr.jpg</code>, <code>fye-asu.jpg</code>. Once uploaded, they'll appear automatically — no code changes needed. Any image format works if you update the extension in the code to match (.jpg, .png, etc).
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="Euphoria ASU logo">
+        <div>
+          <span class="brand-name">EUPHORIA <span>ASU</span></span>
+          <div class="footer-tagline">We enlighten your soul.</div>
+        </div>
+      </div>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="applications.html">Applications</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="collections.html">Collections</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year"></span> Euphoria ASU · Ain Shams University · Student-run club
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

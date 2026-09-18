@@ -1,0 +1,9 @@
+Put these exact file names in this folder:
+- dahab-2026.jpg
+- dahab-2025.jpg
+- padel-tournament-2026.jpg
+- fayoum-trips.jpg
+- ras-sedr.jpg
+- fye-asu.jpg
+
+Once uploaded to GitHub in this same folder, they'll appear on the Collections page and homepage automatically.
