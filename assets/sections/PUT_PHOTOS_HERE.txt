@@ -1,0 +1,4 @@
+Put these exact file names in this folder:
+- mission.jpg   (wide banner photo on the homepage, under "Three things every member signs up for")
+- about.jpg     (wide banner photo on the About Us page, under "What we're trying to build")
+- cta.jpg       (background photo behind the red "Applications are open" banner on both Home and About pages)
